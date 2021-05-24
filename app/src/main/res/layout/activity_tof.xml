@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="fill_parent"
+	android:background="@color/bg_color"
+	android:layout_weight="1">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:textAlignment="center"
+			android:textSize="45sp"
+			android:textStyle="italic"
+			android:text="Правда или ложь?"
+			/>
+
+		<TextView
+			android:id="@+id/count_tv"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:textAlignment="center"
+			android:textSize="35sp"
+			android:textStyle="italic"
+			android:text="Счет: "
+			/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_weight="2"
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/bg_color">
+
+		<TextView
+			android:id="@+id/enWord_tv"
+			android:layout_weight="1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="enWord"
+			android:textSize="45sp"
+			android:textStyle="italic"
+			android:gravity="center_horizontal"
+			/>
+
+		<TextView
+			android:id="@+id/ruWord_tv"
+			android:layout_weight="1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:text="ruWord"
+			android:textSize="45sp"
+			android:textStyle="italic"
+			/>
+
+	</LinearLayout>
+
+
+
+	<LinearLayout
+		android:layout_weight="2"
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/bg_color">
+
+
+		<TextView
+			android:layout_weight="1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Слово"
+			android:textSize="30sp"
+			android:textStyle="italic"
+			android:gravity="center_horizontal"
+			/>
+
+		<TextView
+			android:layout_weight="1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Перевод"
+			android:textSize="30sp"
+			android:textStyle="italic"
+			android:gravity="center_horizontal"
+			/>
+	</LinearLayout>
+
+
+
+	<LinearLayout
+		android:layout_weight="2"
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/bg_color">
+
+		<Button
+			android:layout_weight="1"
+			android:id="@+id/true_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:backgroundTint="@color/btn_color"
+			android:shadowColor="#000000"
+			android:shadowDx="2"
+			android:shadowDy="2"
+			android:shadowRadius="5"
+			android:text="Правда"
+			android:layout_marginStart="10sp"
+			android:layout_marginEnd="10sp"
+			android:textSize="@dimen/small_button_text"
+			/>
+
+		<Button
+			android:layout_weight="1"
+			android:id="@+id/false_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:backgroundTint="@color/btn_color"
+			android:shadowColor="#000000"
+			android:shadowDx="2"
+			android:shadowDy="2"
+			android:shadowRadius="5"
+			android:text="Ложь"
+			android:textSize="@dimen/small_button_text"
+			android:layout_marginStart="10sp"
+			android:layout_marginEnd="10sp"
+			/>
+	</LinearLayout>
+
+
+	<LinearLayout
+		android:layout_weight="1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<Button
+			android:id="@+id/tofCancel_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:backgroundTint="@color/btn_color"
+			android:shadowColor="#000000"
+			android:shadowDx="5"
+			android:shadowDy="2"
+			android:shadowRadius="5"
+			android:text="Назад"
+			android:textSize="@dimen/small_button_text"
+			/>
+
+	</LinearLayout>
+
+
+</LinearLayout>

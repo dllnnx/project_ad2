@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="SpellingView">
+		<attr name="task_text_color" format="color" />
+		<attr name="answer_text_color" format="color" />
+		<attr name="task_bgcolor" format="color">#957CF3</attr>
+		<attr name="answer_bgcolor" format="color">#483981</attr>
+	</declare-styleable>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+	<string name="app_name">ProjectAD</string>
+	<string name="task_type_tof">Правда или ложь</string>
+	<string name="task_type_letter">Правописание</string>
+</resources>

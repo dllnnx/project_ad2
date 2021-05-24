@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@color/bg_color">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:shadowColor="#7669AA"
+		android:shadowDx="2"
+		android:shadowDy="2"
+		android:shadowRadius="5"
+		android:text="Правописание"
+		android:textColor="@color/black"
+		android:textSize="55sp"
+		android:textStyle="italic"
+		/>
+
+	<Button
+		android:id="@+id/easysp_btn"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:backgroundTint="@color/btn_color"
+		android:insetTop="@android:dimen/app_icon_size"
+		android:shadowColor="#000000"
+		android:shadowDx="2"
+		android:shadowDy="2"
+		android:shadowRadius="5"
+		android:text="Начать"
+		android:textSize="@dimen/small_button_text"
+		/>
+
+
+	<Button
+		android:id="@+id/letter_btn_scores"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:backgroundTint="@color/btn_color"
+		android:layout_gravity="center"
+		android:textSize="@dimen/small_button_text"
+		android:textStyle=""
+		android:text="Рекорды"
+		android:shadowColor="#000000"
+		android:shadowDx="2"
+		android:shadowDy="2"
+		android:shadowRadius="5"
+		/>
+
+	<Button
+		android:id="@+id/cancelsp_btn"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:backgroundTint="@color/btn_color"
+		android:shadowColor="#000000"
+		android:shadowDx="5"
+		android:shadowDy="2"
+		android:shadowRadius="5"
+		android:text="Назад"
+		android:insetTop="@android:dimen/app_icon_size"
+		android:textSize="@dimen/small_button_text"
+		android:textStyle=""
+		/>
+
+
+</LinearLayout>

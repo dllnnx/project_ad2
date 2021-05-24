@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@color/bg_color">
+
+	<ListView
+		android:id="@+id/list1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+
+	<Button
+		android:id="@+id/cancel_scores_btn"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:backgroundTint="@color/btn_color"
+		android:layout_marginTop="20sp"
+		android:shadowColor="#000000"
+		android:shadowDx="5"
+		android:shadowDy="2"
+		android:shadowRadius="5"
+		android:text="Назад"
+		android:textSize="@dimen/small_button_text"
+		android:textStyle=""
+		/>
+
+</LinearLayout>
