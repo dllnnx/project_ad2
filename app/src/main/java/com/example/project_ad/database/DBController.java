@@ -30,7 +30,7 @@ public class DBController {
                     DBTaskTof.COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
                     DBTaskTof.COLUMN_RUWORD+ " TEXT, " +
                     DBTaskTof.COLUMN_ENWORD + " TEXT, " +
-                    DBTaskTof.COLUMN_BOOL + " BOOLEAN);";
+                    DBTaskTof.COLUMN_BOOL + " INT);";
             db.execSQL(query);
 
             String query1 = "CREATE TABLE " + DBTaskLetter.TABLE_NAME + " (" +

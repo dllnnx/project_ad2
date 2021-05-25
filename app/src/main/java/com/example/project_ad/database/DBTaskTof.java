@@ -28,16 +28,16 @@ public class DBTaskTof {
 
 	public ArrayList<TaskTof> getDefaultData(){
 		ArrayList<TaskTof> tasks= new ArrayList<>();
-		tasks.add(new TaskTof("кролик", "rabbit", true));
-		tasks.add(new TaskTof("собака", "dog", true));
-		tasks.add(new TaskTof("кошка", "animal", false));
-		tasks.add(new TaskTof("корова", "cow", true));
-		tasks.add(new TaskTof("стол", "bed", false));
-		tasks.add(new TaskTof("дружба", "friendship", true));
+		tasks.add(new TaskTof("кролик", "rabbit", 1));
+		tasks.add(new TaskTof("собака", "dog", 1));
+		tasks.add(new TaskTof("кошка", "animal", 0));
+		tasks.add(new TaskTof("корова", "cow", 1));
+		tasks.add(new TaskTof("стол", "bed", 0));
+		tasks.add(new TaskTof("дружба", "friendship", 1));
 		return tasks;
 	}
 
-	public long insert(String ruword, String enword, boolean bool){
+	public long insert(String ruword, String enword, int bool){
 		ContentValues cv = new ContentValues();
 		cv.put(COLUMN_RUWORD, ruword);
 		cv.put(COLUMN_ENWORD, enword);

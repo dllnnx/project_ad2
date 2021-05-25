@@ -16,7 +16,7 @@
 		android:shadowRadius="5"
 		android:text="Правописание"
 		android:textColor="@color/black"
-		android:textSize="55sp"
+		android:textSize="@dimen/big_textview_size"
 		android:textStyle="italic"
 		/>
 

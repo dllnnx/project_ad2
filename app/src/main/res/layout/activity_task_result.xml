@@ -35,7 +35,7 @@
                 android:textSize="30sp"
                 android:layout_marginStart="10sp"
                 android:layout_marginEnd="10sp"
-                android:text="Выполнено">
+                android:text="Заданий">
             </TextView>
 
             <TextView

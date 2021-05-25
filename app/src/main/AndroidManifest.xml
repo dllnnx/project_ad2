@@ -14,21 +14,21 @@
 		android:supportsRtl="true"
 		android:theme="@style/Theme.ProjectAD">
 
-		<activity android:name=".activities.MainActivity">
+		<activity android:name=".activities.MainActivity" android:screenOrientation="portrait">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 
 				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
 		</activity>
-		<activity android:name=".activities.ChoiceActivity" />
-		<activity android:name=".activities.SpellingChoiceActivity"/>
-		<activity android:name=".activities.EasySpellingActivity"/>
-		<activity android:name=".activities.ToFChoiceActivity"/>
-		<activity android:name=".activities.EasyTofActivity"/>
-		<activity android:name=".activities.ScoresActivity"/>
-		<activity android:name=".activities.TaskResultActivity" />
-		<activity android:name=".activities.SettingsActivity" />
+		<activity android:name=".activities.ChoiceActivity" android:screenOrientation="portrait"/>
+		<activity android:name=".activities.SpellingChoiceActivity" android:screenOrientation="portrait"/>
+		<activity android:name=".activities.EasySpellingActivity" android:screenOrientation="portrait"/>
+		<activity android:name=".activities.ToFChoiceActivity" android:screenOrientation="portrait"/>
+		<activity android:name=".activities.EasyTofActivity" android:screenOrientation="portrait"/>
+		<activity android:name=".activities.ScoresActivity" android:screenOrientation="portrait"/>
+		<activity android:name=".activities.TaskResultActivity" android:screenOrientation="portrait" />
+		<activity android:name=".activities.SettingsActivity" android:screenOrientation="portrait" />
 	</application>
 
 </manifest>

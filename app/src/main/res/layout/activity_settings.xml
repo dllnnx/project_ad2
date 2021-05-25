@@ -10,7 +10,7 @@
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
+        android:textSize="@dimen/big_textview_size"
         android:layout_marginTop="10sp"
         android:layout_marginBottom="10sp"
         android:text="Настройки">
@@ -22,7 +22,7 @@
         android:layout_marginRight="5sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:textSize="30sp"
         android:text="Задания">
 
     </TextView>
@@ -39,7 +39,7 @@
                 android:layout_marginRight="5sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
+                android:textSize="30sp"
                 android:text="Обновлено">
 
             </TextView>
@@ -52,7 +52,7 @@
                 android:textAlignment="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="15sp"
+                android:textSize="25sp"
                 android:text="20.01.2020">
 
             </TextView>
@@ -64,7 +64,7 @@
                 android:textAlignment="center"
                 android:backgroundTint="@color/btn_color"
                 android:text="Обновить"
-                android:textSize="15sp"
+                android:textSize="25sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
@@ -85,7 +85,7 @@
         android:shadowDy="2"
         android:shadowRadius="5"
         android:text="Назад"
-        android:textSize="15sp"
+        android:textSize="@dimen/small_button_text"
         android:textStyle=""
         />
 

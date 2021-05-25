@@ -17,7 +17,7 @@
 			android:layout_height="wrap_content"
 			android:layout_gravity="center"
 			android:textAlignment="center"
-			android:textSize="45sp"
+			android:textSize="@dimen/big_textview_size"
 			android:textStyle="italic"
 			android:text="Правда или ложь?"
 			/>

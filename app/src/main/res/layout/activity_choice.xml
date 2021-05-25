@@ -17,7 +17,7 @@
 		android:textAlignment="center"
 		android:text="Выберите тип заданий"
 		android:textColor="@color/black"
-		android:textSize="55sp"
+		android:textSize="@dimen/big_textview_size"
 		android:layout_marginBottom="20sp"
 		android:textStyle="italic"
 		/>

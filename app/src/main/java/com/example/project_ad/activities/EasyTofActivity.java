@@ -51,7 +51,7 @@ public class EasyTofActivity extends AppCompatActivity {
 		trueBtn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				if (curTask.getBool()){
+				if (curTask.getBool() == 1){
 					count[0]++;
 				}
 				if(!tasks.isEmpty()){
@@ -64,7 +64,7 @@ public class EasyTofActivity extends AppCompatActivity {
 		falseBtn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				if(!curTask.getBool()){
+				if(curTask.getBool() == 0){
 					count[0]++;
 				}
 				if(!tasks.isEmpty()){
